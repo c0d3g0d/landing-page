@@ -1,0 +1,177 @@
+body {
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    align-items: center;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    width: 70%;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.intro .text{
+    flex: 80;
+}
+
+.intro img {
+    flex: 100;
+    border: 1px solid red;
+}
+
+.intro h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.intro h2 {
+    margin-top: 0;
+}
+
+.intro h2, .top ul, .footer {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.top > nav p {
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.info {
+    padding: 32px auto 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.info .images {
+    display: flex;
+    gap: 50px;
+}
+
+.info img {
+    height: 150px;
+    width: 300px;
+    border: 1px solid red;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    
+}
+
+blockquote {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+
+}
+blockquote footer {
+    align-self: flex-end;
+    font-weight: bolder;
+}
+
+blockquote p {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.mid {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    background-color: #1F2937;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+button, .ticket {
+    background-color: #3882F6;
+    color: white;
+}
+    
+button {
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: 1px solid white;
+    flex-shrink: 0;
+}
+
+.ticket {
+    
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    padding: 24px 28px;
+}
+
+.ticket h2 {
+    font-size: 18px;
+    margin-bottom: 0;
+}
+.ticket h3 {
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #e5ebe0;
+}
+
+.bottom {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.info h1 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
