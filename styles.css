@@ -6,7 +6,11 @@ body {
     margin: 0;
     font-family: Roboto, Arial, Helvetica, sans-serif;
 }
-
+.logo {
+    width: 250px;
+    height: auto;
+    
+}
 .top {
     display: flex;
     flex-direction: column;
