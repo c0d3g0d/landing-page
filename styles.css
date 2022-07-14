@@ -102,7 +102,7 @@ ul a {
     width: 100%;
     flex: 1;
     border: 1px solid maroon;
-    border-radius: 4px;
+    border-radius: 8px;
 }
 
 .quote {
