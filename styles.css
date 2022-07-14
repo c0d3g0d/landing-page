@@ -93,14 +93,10 @@ ul a {
     flex: 1;
 }
 
-.text-img {
-    display: flex;
-    flex-direction: column;
-}
 
 .images img {
     width: 100%;
-    flex: 1;
+    height: 160px;
     border: 1px solid maroon;
     border-radius: 8px;
 }
