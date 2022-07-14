@@ -30,6 +30,11 @@ ul {
     margin: 0;
 }
 
+ul a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .intro {
     display: flex;
     justify-content: space-between;
@@ -39,7 +44,7 @@ ul {
     padding-bottom: 70px;
 }
 .intro .text{
-    flex: 80;
+    flex: 90;
 }
 
 .intro img {
@@ -62,6 +67,7 @@ ul {
 .intro h2, .top ul, .footer {
     font-size: 18px;
     color: #E5E7EB;
+    font-weight: lighter;
 }
 
 .top > nav p {
@@ -70,22 +76,33 @@ ul {
 }
 
 .info {
-    padding: 32px auto 64px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
 
-.info .images {
+.images {
     display: flex;
-    gap: 50px;
+    gap: 20px;
+    width: 75%;
 }
 
-.info img {
-    height: 150px;
-    width: 300px;
-    border: 1px solid red;
+
+.images > *{
+    flex: 1;
+}
+
+.text-img {
+    display: flex;
+    flex-direction: column;
+}
+
+.images img {
+    width: 100%;
+    flex: 1;
+    border: 1px solid maroon;
+    border-radius: 4px;
 }
 
 .quote {
